@@ -1,0 +1,46 @@
+{
+	"general": {
+		"controlPanel":	"Control panel"
+	},
+	"menu": {
+		"stats":	"Stats",
+		"users":	"Users"
+	},
+	"users": {
+		"listOfUsers":			"List of users",
+		"nickname":				"Nickname",
+		"email":				"Email",
+		"registeredAt":			"Registered at",
+		"createdEvents":		"Created events",
+		"madeStakes":			"Made stakes",
+		"wallet":				"Wallet",
+		"actions":				"Actions",
+		"blockUser":			"Block user",
+		"writeMessage":			"Write message",
+		"status":				"Status",
+		"amountEntered":		"Amount entered",
+		"withdrawnAmount":		"Withdrawn amount",
+		"replenishmentAddress":	"Replenishment address",
+		"referral":				"Referral"
+	},
+	"events": {
+		"events":					"Events",
+		"current":					"Current",
+		"completed":				"Completed",
+		"new":						"New",
+		"listOfEvents":				"List of events",
+		"listOfCurrentEvents":		"List of current events",
+		"listOfCompletedEvents":	"List of completed events",
+		"listOfNewEvents":			"List of new events",
+		"createdAt":				"Created at",
+		"author":					"Author",
+		"eventPool":				"Event pool",
+		"members":					"Members",
+		"actions":					"Actions",
+		"changeEventStatus":		"Change event status",
+		"approve":					"Approve",
+		"decline":					"Decline",
+		"addEvent":					"Add event",
+		"edit":						"Edit"
+	}
+}

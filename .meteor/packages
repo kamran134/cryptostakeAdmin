@@ -30,3 +30,5 @@ kadira:flow-router
 kadira:blaze-layout
 zimme:active-route
 accounts-ui
+tap:i18n
+tap:i18n-bundler

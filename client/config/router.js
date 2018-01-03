@@ -791,3 +791,37 @@ FlowRouter.route('/notFound', {
     }
 });
 
+
+//
+// CryptoStake Admin Routes
+//
+
+FlowRouter.route('/users', {
+    action: function() {
+        BlazeLayout.render("mainLayout", {content: "users"});
+    }
+});
+
+FlowRouter.route('/events/current', {
+    action: function() {
+        BlazeLayout.render("mainLayout", {content: "current-events"});
+    }
+});
+
+FlowRouter.route('/events/current', {
+    action: function() {
+        BlazeLayout.render("mainLayout", {content: "current-events"});
+    }
+});
+
+FlowRouter.route('/events/completed', {
+    action: function() {
+        BlazeLayout.render("mainLayout", {content: "completed-events"});
+    }
+});
+
+FlowRouter.route('/events/new', {
+    action: function() {
+        BlazeLayout.render("mainLayout", {content: "new-events"});
+    }
+});
