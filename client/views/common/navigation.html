@@ -44,11 +44,32 @@
                     </a>
                 </li>
                 <li class="{{isActivePath regex='events/current|events/completed|events/new'}}">
-                    <a href="#"><i class="fa fa-list"></i> <span class="nav-label" data-i18n="nav.dashboard">{{_ 'events.events'}}</span> <span class="fa arrow"></span></a>
+                    <a href="#">
+                        <i class="fa fa-list"></i>
+                        <span class="nav-label" data-i18n="nav.dashboard">{{_ 'events.events'}}</span>
+                        <span class="fa arrow"></span>
+                    </a>
                     <ul class="nav nav-second-level collapse {{isActivePath regex='events/current|events/completed|events/new' className='in'}}">
                         <li class="{{isActivePath regex='/events/current'}}"><a href="/events/current">{{_ 'events.current'}}</a></li>
                         <li class="{{isActivePath regex='/events/completed'}}"><a href="/events/completed">{{_ 'events.completed'}}</a></li>
                         <li class="{{isActivePath regex='/events/new'}}"><a href="/events/new">{{_ 'events.new'}}</a></li>
+                    </ul>
+                </li>
+                <li class="{{isActivePath regex='purse'}}">
+                    <a href="/purse">
+                        <i class="fa fa-money"></i>
+                        <span class="nav-label">{{_ 'menu.purse'}}</span>
+                    </a>
+                </li>
+                <li class="{{isActivePath regex='news'}}">
+                    <a href="#">
+                        <i class="fa fa-newspaper-o"></i>
+                        <span class="nav-label" data-i18n="nav.dashboard">{{_ 'menu.news'}}</span>
+                        <span class="fa arrow"></span>
+                    </a>
+                    <ul class="nav nav-second-level collapse {{isActivePath regex='news/addNews|news' className='in'}}">
+                        <li class="{{isActivePath regex='/news/addNews'}}"><a href="/news/addNews">{{_ 'news.addNews'}}</a></li>
+                        <li class="{{isActivePath regex='/news'}}"><a href="/news">{{_ 'news.news'}}</a></li>
                     </ul>
                 </li>
                 <li hidden class="{{isActivePath regex='/layouts'}}">

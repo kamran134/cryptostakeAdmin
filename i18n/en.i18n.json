@@ -4,7 +4,9 @@
 	},
 	"menu": {
 		"stats":	"Stats",
-		"users":	"Users"
+		"users":	"Users",
+		"purse":	"Purse",
+		"news":		"News"
 	},
 	"users": {
 		"listOfUsers":			"List of users",
@@ -42,5 +44,11 @@
 		"decline":					"Decline",
 		"addEvent":					"Add event",
 		"edit":						"Edit"
+	},
+	"news": {
+		"addNews":					"Add news",
+		"news":						"News on site",
+		"shortNews":				"Short description",
+		"fullNews":					"Full content of news"
 	}
 }

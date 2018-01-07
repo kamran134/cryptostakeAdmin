@@ -808,12 +808,6 @@ FlowRouter.route('/events/current', {
     }
 });
 
-FlowRouter.route('/events/current', {
-    action: function() {
-        BlazeLayout.render("mainLayout", {content: "current-events"});
-    }
-});
-
 FlowRouter.route('/events/completed', {
     action: function() {
         BlazeLayout.render("mainLayout", {content: "completed-events"});
@@ -823,5 +817,11 @@ FlowRouter.route('/events/completed', {
 FlowRouter.route('/events/new', {
     action: function() {
         BlazeLayout.render("mainLayout", {content: "new-events"});
+    }
+});
+
+FlowRouter.route('/news/addNews', {
+    action: function () {
+        BlazeLayout.render("mainLayout", {content: "addNews"})
     }
 });

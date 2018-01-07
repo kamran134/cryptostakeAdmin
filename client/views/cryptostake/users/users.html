@@ -1,49 +1,46 @@
 <template name="users">
-	        <div class="row">
-            <div class="col-lg-12">
-                <div class="ibox float-e-margins">
-                    <div class="ibox-title">
-                        <h5>{{_ 'users.listOfUsers'}}</h5>
-
-                        <div class="ibox-tools">
-                            <a class="collapse-link">
-                                <i class="fa fa-chevron-up"></i>
-                            </a>
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                <i class="fa fa-wrench"></i>
-                            </a>
-                            <ul class="dropdown-menu dropdown-user">
-                                <li><a href="#">Config option 1</a>
-                                </li>
-                                <li><a href="#">Config option 2</a>
-                                </li>
-                            </ul>
-                            <a class="close-link">
-                                <i class="fa fa-times"></i>
-                            </a>
-                        </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>{{_ 'users.listOfUsers'}}</h5>
+                    <div class="ibox-tools">
+                        <a class="collapse-link">
+                            <i class="fa fa-chevron-up"></i>
+                        </a>
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-wrench"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li><a href="#">Config option 1</a>
+                            </li>
+                            <li><a href="#">Config option 2</a>
+                            </li>
+                        </ul>
+                        <a class="close-link">
+                            <i class="fa fa-times"></i>
+                        </a>
                     </div>
-                    <div class="ibox-content">
-
-                        <table class="users-table table table-stripped toggle-arrow-tiny" data-page-size="8">
-                            <thead>
-                            <tr>
-
-                                <th data-toggle="true">{{_ 'users.nickname'}}</th>
-                                <th>{{_ 'users.email'}}</th>
-                                <th>{{_ 'users.status'}}</th>
-                                <th data-hide="all">{{_ 'users.createdEvents'}}</th>
-                                <th data-hide="all">{{_ 'users.madeStakes'}}</th>
-                                <th data-hide="all">{{_ 'users.wallet'}}</th>
-                                <th data-hide="all">{{_ 'users.registeredAt'}}</th>
-                                <th data-hide="all">{{_ 'users.amountEntered'}}</th>
-                                <th data-hide="all">{{_ 'users.withdrawnAmount'}}</th>
-                                <th data-hide="all">{{_ 'users.replenishmentAddress'}}</th>
-                                <th data-hide="all">{{_ 'users.referral'}}</th>
-                                <th>{{_ 'users.actions'}}</th>
-                            </tr>
-                            </thead>
-                            <tbody>
+                </div>
+                <div class="ibox-content">
+                    <table class="users-table table table-stripped toggle-arrow-tiny" data-page-size="8">
+                        <thead>
+                        <tr>
+                            <th data-toggle="true">{{_ 'users.nickname'}}</th>
+                            <th>{{_ 'users.email'}}</th>
+                            <th>{{_ 'users.status'}}</th>
+                            <th data-hide="all">{{_ 'users.createdEvents'}}</th>
+                            <th data-hide="all">{{_ 'users.madeStakes'}}</th>
+                            <th data-hide="all">{{_ 'users.wallet'}}</th>
+                            <th data-hide="all">{{_ 'users.registeredAt'}}</th>
+                            <th data-hide="all">{{_ 'users.amountEntered'}}</th>
+                            <th data-hide="all">{{_ 'users.withdrawnAmount'}}</th>
+                            <th data-hide="all">{{_ 'users.replenishmentAddress'}}</th>
+                            <th data-hide="all">{{_ 'users.referral'}}</th>
+                            <th>{{_ 'users.actions'}}</th>
+                        </tr>
+                        </thead>
+                        <tbody>
                             <tr>
                                 <td>Project - This is example of project</td>
                                 <td>Patrick Smith</td>
@@ -372,18 +369,17 @@
                                 	</div>
                                 </td>
                             </tr>
-                            </tbody>
-                            <tfoot>
+                        </tbody>
+                        <tfoot>
                             <tr>
                                 <td colspan="5">
                                     <ul class="pagination pull-right"></ul>
                                 </td>
                             </tr>
-                            </tfoot>
-                        </table>
-
-                    </div>
+                        </tfoot>
+                    </table>
                 </div>
             </div>
         </div>
+    </div>
 </template>
