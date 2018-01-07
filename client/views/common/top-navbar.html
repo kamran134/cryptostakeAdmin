@@ -109,6 +109,21 @@
                     </ul>
                 </li>
 
+                <div class="btn-group language-select" role="group">
+                    <button type="button" class="btn btn-sm lang-set
+                        {{#if checkSelectedLanguage 'ru'}}
+                            active btn-info
+                        {{else}}
+                            btn-primary
+                        {{/if}}" data-lang="ru">Ru</button>
+                    <button type="button" class="btn btn-sm lang-set
+                        {{#if checkSelectedLanguage 'en'}}
+                            active btn-info
+                        {{else}}
+                            btn-primary
+                        {{/if}}" data-lang="en">En</button>
+                </div>
+
 
                 <li>
                     <a href="/login">

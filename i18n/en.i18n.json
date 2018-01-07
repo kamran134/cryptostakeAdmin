@@ -5,7 +5,7 @@
 	"menu": {
 		"stats":	"Stats",
 		"users":	"Users",
-		"purse":	"Purse",
+		"wallet":	"Wallet",
 		"news":		"News"
 	},
 	"users": {
