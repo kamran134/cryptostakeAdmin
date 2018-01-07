@@ -820,6 +820,12 @@ FlowRouter.route('/events/new', {
     }
 });
 
+FlowRouter.route('/news', {
+    action: function () {
+        BlazeLayout.render("mainLayout", {content: "news"})
+    }
+});
+
 FlowRouter.route('/news/addNews', {
     action: function () {
         BlazeLayout.render("mainLayout", {content: "addNews"})
