@@ -8,20 +8,19 @@
     <div class="wrapper wrapper-content animated fadeInRight blog">
         <div class="row">
             <div class="col-lg-4">
+                {{#each news}}
                 <div class="ibox">
                     <div class="ibox-content">
                         <a href="/article" class="btn-link">
                             <h2>
-                                Стоимость Биткойна может достигнуть 10000$ или даже 1$ млн. Чандлер Го объясняет как именно
+                                {{caption}}
                             </h2>
                         </a>
                         <div class="small m-b-xs">
-                            <strong>Adam Novak</strong> <span class="text-muted"><i class="fa fa-clock-o"></i> 01.12.2018</span>
+                            <strong>Adam Novak</strong> <span class="text-muted"><i class="fa fa-clock-o"></i> {{showDateDDMMYYYY createdAt}}</span>
                         </div>
                         <p>
-                            В этой статье Дэмиан Бренер опишет несколько бизнес-моделей, появившихся в «отрасли» блокчейнов.
-                            Дэмиан – основатель и гендиректор Smart Contract Solutions, компании, выпускающей инструментарий
-                            для бизнеса, использующего в работе токены на блокчейнах.
+                            {{{shortDesc}}}
                         </p>
                         <div class="row">
                             <div class="col-md-6">
@@ -39,7 +38,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="ibox">
+                {{/each}}
+                <!-- <div class="ibox">
                     <div class="ibox-content">
                         <a href="/article" class="btn-link">
                             <h2>
@@ -291,7 +291,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>

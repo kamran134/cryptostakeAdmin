@@ -7,12 +7,22 @@
     </div>
 
     <div class="wrapper wrapper-content">
+    <form>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>{{_ "news.caption"}}</h5>
+                        <input type="text" id="newscaption" class="form-control">
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="row">
             <div class="col-lg-12">
                 <div class="ibox float-e-margins">
                     <div class="ibox-title">
                         <h5>{{_ "news.shortNews"}}</h5>
-                        {{>iboxTools}}
                     </div>
                     <div class="ibox-content no-padding">
 
@@ -39,7 +49,6 @@
                 <div class="ibox float-e-margins">
                     <div class="ibox-title">
                         <h5>{{_ "news.fullNews"}}</h5>
-                        {{>iboxTools}}
                     </div>
                     <div class="ibox-content no-padding">
 
@@ -59,6 +68,11 @@
 
                     </div>
                 </div>
+
+                <button class="btn btn-success" type="submit">
+                    <i class="fa fa-plus"></i>
+                    {{_ "news.addNews"}}
+                </button>
             </div>
         </div>
         <!--<div class="row">-->
@@ -84,5 +98,6 @@
                 <!--</div>-->
             <!--</div>-->
         <!--</div>-->
+    </form>
     </div>
 </template>

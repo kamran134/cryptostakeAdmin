@@ -48,6 +48,7 @@
 	"news": {
 		"addNews":					"Add news",
 		"news":						"News on site",
+		"caption":					"Caption of news",
 		"shortNews":				"Short description",
 		"fullNews":					"Full content of news"
 	}
